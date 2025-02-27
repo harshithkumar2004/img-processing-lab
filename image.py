@@ -1,5 +1,5 @@
 import cv2
-img=cv2.imread('img1.jpg')
+img=cv2.imread('girl.jpg')
 
 #cv2.imshow('Image', img)
 
