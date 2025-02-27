@@ -1,6 +1,7 @@
 import cv2
-img=cv2.imread('girl.jpg')
+import matplotlib.pyplot as plt
 
+img=cv2.imread('girl.jpg')
 #cv2.imshow('Image', img)
 
 resized = cv2.resize(img, (300, 300))
@@ -33,6 +34,10 @@ center_x, center_y = w // 2, h // 2
 cv2.line(resized, (center_x, 0), (center_x, h), (0, 0, 0), 2)
 cv2.line(resized, (0, center_y), (w, center_y), (0, 0, 0), 2)
 cv2.imshow('Quadrants', resized)
+
+plt.imshow(cv2.cvtColor(resized, cv2.COLOR_BGR2RGB))
+plt.title("Quadrants")
+plt.show()
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
