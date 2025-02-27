@@ -5,7 +5,8 @@
 
 This repository contains basic image processing operations using OpenCV, useful for lab experiments and learning.  
 
-## Operations Included 
+## Operations Included
+
 ✅ Load and display an image  
 ✅ Resize and flip an image  
 ✅ Apply blur and rotation  
@@ -14,7 +15,9 @@ This repository contains basic image processing operations using OpenCV, useful 
 ✅ Apply thresholding
 ✅ Drawing quadrants
 ✅ Show and close image windows  
+
 and many more..................
+
 
 ## Requirements  
 - Python 3  
