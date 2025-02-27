@@ -11,7 +11,8 @@ This repository contains basic image processing operations using OpenCV, useful 
 ✅ Apply blur and rotation  
 ✅ Convert to grayscale  
 ✅ Detect edges using Canny  
-✅ Apply thresholding  
+✅ Apply thresholding
+✅ Drawing quadrants
 ✅ Show and close image windows  
 and many more..................
 
